@@ -1,0 +1,85 @@
+.workingProcessSubTitle{
+    color: var(--blue-color);
+    font-weight: 600;
+}
+.workingProcessTitle{
+    color: var(--main-color);
+    font-size: 42px;
+    font-weight: bold;
+}
+.step{
+    background-color: rgb(227, 220, 220);
+    padding: 40px 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.step h5{
+    color: var(--blue-color);
+    font-size: 25px;
+    font-weight: 600;
+ }
+.step p{
+    font-size: 20px;
+}
+.step Button{
+    width: 170px;
+    background-color: gray;
+}
+.step span{
+    background-color: white;
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.step:hover{
+   background-color: var(--blue-color); 
+   color: white;
+}
+.step:hover h5{ 
+    color: white;
+ }
+.step:hover Button{
+    background-color: white; 
+    color: var(--blue-color);
+ }
+.step:hover span{
+    background-color: var(--blue-color);
+    color: white;
+ }
+.step2 {
+    background-color: var(--blue-color);
+    color: white;
+}
+.step2 h5{
+    color: white;
+}
+.step2 Button{
+    color: var(--blue-color);
+    background-color: white;
+}
+.step2 span{
+    background-color: var(--blue-color);
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .workingProcessTitle{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .step{
+        max-width: 100%;
+        padding: 20px;
+        margin: 10px auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .workingProcessItems {
+        margin-left: 140px;
+        margin-right: 140px;
+    } 
+}

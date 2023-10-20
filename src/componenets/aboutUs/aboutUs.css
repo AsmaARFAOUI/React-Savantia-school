@@ -1,0 +1,92 @@
+.aboutUsImg1 {
+    max-width: 220px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.aboutUsImg2 {
+    max-width: 220px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.aboutUsImg3 {
+    max-width: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.aboutUsImg4 {
+    max-width: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+} 
+.aboutUs h6{
+    color: var(--orange-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+.aboutUs h1{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.aboutUs p{
+   font-size: 20px;
+}
+.readMoreAboutUsBtn{
+    background-color: var(--secondary-color);
+    width: 120px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 300px) {
+    .aboutUsImg1 {
+        max-width: 140px;
+    }
+    .aboutUsImg2 {
+        max-width: 140px;
+    }
+    .aboutUsImg3 {
+        max-width: 140px;
+    }
+    .aboutUsImg4 {
+        max-width: 140px;
+    } 
+}
+@media screen and (min-width: 301px) and (max-width: 768px) {
+    .aboutUsImg1 {
+        max-width: 180px;
+    }
+    .aboutUsImg2 {
+        max-width: 180px;
+    }
+    .aboutUsImg3 {
+        max-width: 180px;
+    }
+    .aboutUsImg4 {
+        max-width: 180px;
+    } 
+}
+@media screen and (min-width: 769px ) and (max-width: 991px) {
+    .aboutUsImages {
+      margin-left: 20px;
+    }
+    .aboutUsImg1 {
+        max-width: 200px;
+    }
+    .aboutUsImg2 {
+        max-width: 200px;
+    }
+    .aboutUsImg3 {
+        max-width: 200px;
+    }
+    .aboutUsImg4 {
+        max-width: 200px;
+    } 
+}
+@media screen and (min-width: 992px){
+    .aboutUsImages {
+        padding-left: 100px;
+    }
+}

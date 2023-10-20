@@ -1,0 +1,49 @@
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footerContactUs i{
+    color: var(--blue-color);
+}
+.footerContactUs h6{
+    color: var(--blue-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.footerContactUs h4{
+    color: var(--main-color); 
+    font-weight: 800;
+}
+.footer h3 {
+    color: var(--main-color);
+    font-weight: 700;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.footer ul li a:hover{
+    color: var(--secondary-color);
+}
+.footerForm Button{
+    background-color: var(--blue-color);
+}
+.footerSocialMedia img{
+    margin-right: 15px;
+}
+.footerBottom h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btnTopPage{
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}

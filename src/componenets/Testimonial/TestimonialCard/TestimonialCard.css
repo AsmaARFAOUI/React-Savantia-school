@@ -1,0 +1,43 @@
+.parentOpinion {
+    background-color: #8dcef4 ;
+    border: 1px solid #38b6ff ;
+    padding: 15px;
+    border-radius: 15px;
+    color: #555555; 
+    box-shadow:  5px 5px 35px rgb(218, 213, 213);
+}
+.quoteIcon {
+    font-size: 60px;
+}
+.latestNewsProfileImg {
+    width: 60%;
+    height: 60px;
+    margin-right: 10px;
+}
+.LatestNewsCards p{
+    font-weight: 700;
+}
+.LatestNewsCards i{
+    color: var(--orange-color);
+}
+.cardTitle {
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+.cardTitle:hover {
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+.LatestNewsCards Button {
+    background-color: white;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    font-weight: 20px;
+    width: 150px;
+}
+.LatestNewsCards Button:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}

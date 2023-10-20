@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 40%; 
+}
+.logo img {
+  width: 30%;
+}
+.navbar-nav a {
+   font-size: 18px;
+   font-weight: 600;
+   margin-right: 20px; 
+   margin-left: 20px; 
+   color: var(--main-color);
+}
+.navbar-nav a:hover {
+    color: var(--orange-color);
+ }
+.navbar-nav button{
+    background-color: var(--main-color);
+    width: 210px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-nav button span{
+    color: var(--main-color);
+    background-color: white;
+    padding: 3px 8px 3px 6px;
+    margin: 3px 15px;
+    border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .logo{
+    margin-right: 120px; 
+  } 
+}
+@media screen and (max-width: 768px) {
+  .logo img{
+    width: 60%;
+  } 
+}
